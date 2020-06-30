@@ -10,8 +10,6 @@ public class Actor {
 	public Actor(String firstName, String lastName) {
 		this.firstName = firstName;
 		this.lastName = lastName;
-
-		System.out.println("     - Created actor: " + this.toString());
 	}
 
 	public String getFirstName() {

@@ -12,8 +12,6 @@ public class Movie {
 	public Movie(String title, int releaseYear) {
 		this.title = title;
 		this.releaseYear = releaseYear;
-
-		System.out.println("Created movie: " + this.toString());
 	}
 
 	public String getTitle() {
